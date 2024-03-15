@@ -1,0 +1,77 @@
+.buttonBox {
+    display: flex;
+    position: absolute;
+    top: 28px;
+    right: 0
+}
+
+.hamburger {
+    margin: 13px 10px 10px 10px; 
+    width: 20px;
+    height: 20px;
+    z-index: 30;
+    border: none;
+    display: flex;
+    opacity: 0.7;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: space-between;
+}
+    
+.open {
+    height: 19px;
+}
+     
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #868686;
+    transition: transform 0.3s, opacity 0.3s;
+}
+    
+.line:hover{
+    background-color: #868686;
+}
+      
+.open .line:nth-child(1) {
+    transform: rotate(45deg) translate(7px, 7px);
+    background-color: #868686;
+}
+    
+.open .line:nth-child(2) {
+    opacity: 0;
+    background-color: #868686;
+}
+      
+.open .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    background-color: #868686;
+}
+    
+.open .line, .close .line {
+    background-color: #868686;
+}
+    
+.open:hover .line, .close:hover .line {
+    cursor: pointer;
+    background-color: #868686;
+}
+
+.menu {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    right: 0;
+    color: white;
+    background-color: black;
+}
+
+.link {
+    font-family: 'Gagalin';
+    padding: 7px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}

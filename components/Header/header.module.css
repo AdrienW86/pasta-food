@@ -1,0 +1,26 @@
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+.h1 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    justify-content: center;
+    font-family: "Gagalin";
+}
+
+.green {
+    color: green;
+}
+
+.white {
+    color: white;
+}
+
+.red {
+    color: red;
+}
