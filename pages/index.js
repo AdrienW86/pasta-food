@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import Header from '@/components/Header/Header'
 import styles from '@/styles/Home.module.css'
 
@@ -28,7 +29,9 @@ export default function Home() {
           <div className={styles.bannerTxt}> 
             <p> Venez déguster nos plats et dsesserts fait maison  </p> <br></br>
             <p> Nous sommes ouverts tous les jours de 20h à 4h du matin.</p>
-            <button className={styles.btn}> Commander </button>
+            <div className={styles.boxBtn}> 
+              <Link href='/#contact' className={styles.btn}> Commander </Link>
+            </div>
           </div>
 
           <Image 
