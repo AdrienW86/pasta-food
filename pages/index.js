@@ -21,7 +21,6 @@ export default function Home() {
               src='/halal.png'
               height={60} 
               width={60}
-              priority
               alt="logo halal"
             />
           </div>
@@ -62,7 +61,6 @@ export default function Home() {
                 src='/telephone.png'
                 height={30} 
                 width={30}
-                priority
                 alt='logo phone'
               />
               <p className={styles.number}> 06.01.58.40.07  </p>  
@@ -72,7 +70,6 @@ export default function Home() {
                 src='/snap.png'
                 height={120} 
                 width={120}
-                priority
                 alt='logo snapchat'
               />
               <div className={styles.snap}>

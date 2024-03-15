@@ -14,7 +14,7 @@
   background-color: #d1d1d1;
 }
 
-.hours { 
+.hours, .hours2 { 
   padding-top: 15px;
   color: green;
   font-family: 'Gagalin';
@@ -22,11 +22,9 @@
 
 .hours2 { 
   padding: 30px;
-  color: green;
-  font-family: 'Gagalin';
 }
 
-.banner {
+.banner, .banner2 {
   position: relative;
   width: 100%;
   transition: .4s ease-in-out;
@@ -36,12 +34,7 @@
 }
 
 .banner2 {
-  position: relative;
-  width: 100%;
-  transition: .4s ease-in-out;
-  overflow: hidden;
   aspect-ratio: 3/4;
-  max-height: 100vh;
 }
 
 .background {
@@ -73,6 +66,7 @@
   letter-spacing: 0.1em;
   font-family: 'Gagalin';
   color: white;
+  opacity: 1;
   border-radius: 16px;
   border: 1px solid white;
   background-color: red;
@@ -91,16 +85,13 @@
   margin-bottom: 30px;
 }
 
-.number {
+.number, .number2 {
   font-size: 1.5em;
   font-family: 'Gagalin';
   margin-left: 10px;
 }
 
 .number2 {
-  font-size: 1.5em;
-  font-family: 'Gagalin';
-  margin-left: 10px;
   text-decoration: underline;
 }
 
