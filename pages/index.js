@@ -75,8 +75,9 @@ export default function Home() {
                 priority
               />
               <div className={styles.snap}>
+              <Link className={styles.number2} href="https://t.snapchat.com/QPaz05Xa"> Cliquer ici </Link>
                 <p className={styles.number}> ou scannez directement  </p>
-                <p className={styles.number}> Pasta food 66  </p>
+                
               
               </div>  
             </div>

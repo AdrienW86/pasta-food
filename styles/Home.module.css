@@ -97,6 +97,13 @@
   margin-left: 10px;
 }
 
+.number2 {
+  font-size: 1.5em;
+  font-family: 'Gagalin';
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
 .snap {
   color: green;
   padding-top: 10px;
