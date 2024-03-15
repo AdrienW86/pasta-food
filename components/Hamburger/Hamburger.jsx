@@ -16,8 +16,7 @@ export default function Hamburger() {
             <span className={styles.line}> </span>
             <span className={styles.line}></span>
             <span className={styles.line}></span>
-        </button>
-       
+        </button>      
     </div>
     {open &&
         <section className={styles.menu}>
