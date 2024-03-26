@@ -16,18 +16,13 @@ export default function Home() {
       <main className={styles.main}>
         <Header />
           <div className={styles.intro}>
-            <h2 id= "home" className={styles.hours}> Livraison de 20h à 4h </h2>
-            <Image
-              src='/halal.png'
-              height={60} 
-              width={60}
-              alt="logo halal"
-            />
+            <h2 id= "home" className={styles.hours}> Livraison de 19h à 23h </h2>
+           
           </div>
           <section className={styles.banner}>
           <div className={styles.bannerTxt}> 
             <p> Venez déguster nos plats et desserts fait maison  </p> <br></br>
-            <p> Nous sommes ouverts tous les jours de 20h à 4h du matin.</p>
+            <p> Nous sommes ouverts tous les jours de 19h à 23h.</p>
             <div className={styles.boxBtn}> 
               <Link href='/#contact' className={styles.btn}> Commander </Link>
             </div>
@@ -41,7 +36,8 @@ export default function Home() {
             />
           </section>
           <div className={styles.intro}>
-            <h2 id="carte" className={styles.hours2}> Notre carte </h2>           
+            <h2 id="carte" className={styles.hours2}> Notre carte </h2>      
+            <Link href='/plats' className={styles.introLink}> Voir nos plats en image </Link>
           </div>
           <div className={styles.banner2}>
             <Image 
@@ -63,7 +59,7 @@ export default function Home() {
                 width={30}
                 alt='logo phone'
               />
-              <p className={styles.number}> 06.01.58.40.07  </p>  
+              <p className={styles.number}> 06.66.67.27.09  </p>  
             </div>
             <div className={styles.phone}> 
               <Image
@@ -73,7 +69,7 @@ export default function Home() {
                 alt='logo snapchat'
               />
               <div className={styles.snap}>
-                <Link className={styles.number2} href="https://t.snapchat.com/QPaz05Xa"> Cliquer ici </Link>
+                <Link className={styles.number2} href="https://t.snapchat.com/BKmqg3v6"> Cliquer ici </Link>
                 <p className={styles.number}> ou scannez directement </p>             
               </div>  
             </div>

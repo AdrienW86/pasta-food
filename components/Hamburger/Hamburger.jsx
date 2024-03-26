@@ -20,8 +20,8 @@ export default function Hamburger() {
     </div>
     {open &&
         <section className={styles.menu}>
-            <Link className={styles.link} href="/#home"> Accueil </Link>
             <Link className={styles.link} href="/#carte" > Carte </Link>
+            <Link className={styles.link} href="/plats" > Plats </Link>
             <Link className={styles.link} href="/#contact"> Contact </Link>
         </section>
     }

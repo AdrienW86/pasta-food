@@ -7,22 +7,33 @@
 
 .intro {
   display: flex;
+  flex-direction: column;
   width: 100%;
+  text-align: center;
   z-index: 4;
   border-bottom: 1px solid black;
  justify-content: space-around;
   background-color: #d1d1d1;
 }
 
+.introLink {
+  color: red;
+  text-decoration: underline;
+  font-family: 'Gagalin';
+  padding-bottom: 15px;
+}
+
+.introLink:hover {
+  cursor: pointer;
+}
+
 .hours, .hours2 { 
-  padding-top: 15px;
+  padding: 15px;
   color: green;
   font-family: 'Gagalin';
 }
 
-.hours2 { 
-  padding: 30px;
-}
+
 
 .banner, .banner2 {
   position: relative;
